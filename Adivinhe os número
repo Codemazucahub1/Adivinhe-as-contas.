@@ -1,0 +1,51 @@
+print("===Adivinhe os números===")
+print("")
+
+
+while True:
+    
+    acertos = 0
+    
+    try:
+        pergunta_1 = int(input("Quanto é 2+2 ?: "))
+    except ValueError:
+        print("Digite apenas números! ⚠️")
+    opcoes = [1, 3, 4, 5]
+    resposta_1 = 4
+    
+    if pergunta_1 == resposta_1:
+        print("Você acertou 😊")
+        acertos += 1
+    else:
+        print("Você errou 🛑")
+
+    try:    
+        pergunta_2 = int(input("Quanto é 5*5 ?: "))
+    except ValueError:
+        print("Digite apenas números! ⚠️")
+    opcoes = [25, 55, 10, 51]
+    resposta_2 = 25
+
+    
+    if pergunta_2 == resposta_2:
+        print("Você acertou 😊")
+        acertos += 1
+    else:
+        print("Você errou 🛑")
+    
+    try:
+        pergunta_3 = int(input("Quanto é 10/2 ?: "))
+    except ValueError:
+        print("Digite apenas números! ⚠️")
+
+    opcoes = [4, 5, 2, 1]
+    resposta_3 = 5
+
+    if pergunta_3 == resposta_3:
+        print("Você acertou 😊")
+        acertos += 1
+    else:
+        print("Você errou 🛑")
+
+    print(f"Você acertou {acertos} de 3 perguntas")
+    break
