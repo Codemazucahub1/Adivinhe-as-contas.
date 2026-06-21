@@ -30,4 +30,4 @@ O projeto foi desenvolvido com foco em prática de lógica e manipulação de en
 
 ## ▶️ Como executar
 
-Abaixe o Python em seu computador ou utilize no Visual Studio Code e crei um arquivo com o final py e execute!
+Abaixe o Python em seu computador ou utilize no Visual Studio Code e crie um arquivo com o final py e execute!
